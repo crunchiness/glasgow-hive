@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>The Glasgow Hive</title>    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="196x196" href="img/nice-highres.png">
+    <link rel="icon" sizes="128x128" href="img/niceicon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="img/niceicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="img/niceicon.png">
+    <title>Glasgow Hive</title>    
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -19,10 +23,27 @@
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/map.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <div class="mobile_controls" id="button_1"><img src="img/button_1.png">
+        <div>
+            <p>Road Congestion 5 miles ahead</p>
+        </div>
+    </div>
+    <div class="mobile_controls" id="button_2"><img src="img/button_2.png">
+        <div>
+            <p>Traffic accident 2 miles ahead</p>
+        </div>
+    </div>
+    <div class="mobile_controls" id="button_3"><img src="img/button_3.png">
+        <div>
+            <p>Traffic diversion 7 miles ahead</p>
+        </div>
+    </div>
+    <div class="mobile_controls" id="logo"><img src="img/icon64.png"></div>
     <div id="map-canvas"></div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">

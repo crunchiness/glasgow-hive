@@ -1,0 +1,53 @@
+.mobile_controls {
+    display: none;
+}
+
+.visible {
+    display: block!important;
+}
+
+
+#button_1 img, #button_2 img, #button_3 img {
+    margin-left: -300px;
+    position: relative;
+}
+
+#button_1 div, #button_2 div, #button_3 div {
+    position: absolute;
+    top: 0px;
+    left: -280px;
+    font-size: 14pt;
+}
+
+#button_1 p, #button_2 p, #button_3 p {
+    margin-top: 10px;
+}
+
+#button_1 {
+    top: 100px;
+}
+
+#button_2 {
+    top: 200px;
+}
+
+#button_3 {
+    top: 300px;
+}
+
+#logo {
+    bottom: 10px;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    right: 10px;
+    z-index: 99;
+}
+
+#button_1, #button_2, #button_3 {
+    position: fixed; 
+    width: 46px;
+    height: 52px;
+    left: 0;
+    z-index: 99;
+}
